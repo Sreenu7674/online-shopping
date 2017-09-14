@@ -3,12 +3,7 @@
 	<div class="row">
 
 		<div class="col-md-3">
-			<p class="lead">Shop Name</p>
-			<div class="list-group">
-				<a href="#" class="list-group-item">Category 1</a> <a href="#"
-					class="list-group-item">Category 2</a> <a href="#"
-					class="list-group-item">Category 3</a>
-			</div>
+			<%@include file="./shared/sidebar.jsp" %>
 		</div>
 
 		<div class="col-md-9">
@@ -37,8 +32,7 @@
 							</div>
 							<div class="item">
 								<img class="slide-image"
-									src="C:\Users\Sreenu\Pictures\Screenshots\Shravi\Screenshot (18
-                                    ).png"
+									src="C:\Users\Sreenu\Pictures\Screenshots\Shravi\Screenshot (20).png"
 									alt="">
 							</div>
 						</div>
