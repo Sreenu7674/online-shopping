@@ -1,20 +1,35 @@
 package com.sreenu.shoppingbackend.dto;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  * @author Sreenu
  *
  */
+
+@Entity
 public class Category {
 	
 	/*
 	 * Private fileds
 	 */
-	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
+	
 	private String name;
+	
 	private String description;
+	
+	@Column(name="image_url")
 	private String imageURL;
-	private boolean acive;
+	
+	@Column(name="is_active")
+	private boolean active=true;
 	
 	
 	public int getId() {
@@ -41,11 +56,16 @@ public class Category {
 	public void setImageURL(String imageURL) {
 		this.imageURL = imageURL;
 	}
-	public boolean isAcive() {
-		return acive;
+	public boolean isActive() {
+		return active;
 	}
 	public void setAcive(boolean acive) {
-		this.acive = acive;
+		this.active = acive;
+	}
+	@Override
+	public String toString() {
+		return "Category [id=" + id + ", name=" + name + ", description=" + description + ", imageURL=" + imageURL
+				+ ", acive=" + active + "]";
 	}
 	
 	
