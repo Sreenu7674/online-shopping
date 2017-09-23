@@ -71,3 +71,10 @@ footer {
 	bottom: 0;
 	height: 60px;
 }
+
+.dataTableImg{
+    max-width:10%;
+    max-height:10%;
+}
+
+
