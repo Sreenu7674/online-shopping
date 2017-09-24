@@ -7,6 +7,12 @@
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<!-- For throw exception -->
+		<init-param>
+			<param-name>throwExceptionIfNoHandlerFound</param-name>
+			<!-- <param-name>throwNoHandlerFoundException</param-name> -->
+			<param-value>true</param-value>
+		</init-param>
 	</servlet>
 	
 	<servlet-mapping>
