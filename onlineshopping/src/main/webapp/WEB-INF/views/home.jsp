@@ -22,17 +22,17 @@
 						<div class="carousel-inner">
 							<div class="item active">
 								<img class="slide-image"
-									src="C:\Users\Sreenu\Pictures\Screenshots\Shravi\Screenshot (20).png"
+									src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Audio/Oct17/1077501_audio60off_1500x300._CB513770943_.jpg"
 									alt="">
 							</div>
 							<div class="item">
 								<img class="slide-image"
-									src="C:\Users\Sreenu\Pictures\Screenshots\Shravi\Screenshot (19).png"
+									src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Wireless/Samsung_Jseries/1500x300._CB511784729_.jpg"
 									alt="">
 							</div>
 							<div class="item">
 								<img class="slide-image"
-									src="C:\Users\Sreenu\Pictures\Screenshots\Shravi\Screenshot (20).png"
+									src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2017/Acquisition/OandO/SingleTitles/LME/desktop_member_1500x300._CB514827937_.jpg"
 									alt="">
 							</div>
 						</div>

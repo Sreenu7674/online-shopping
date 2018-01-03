@@ -28,6 +28,10 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	
+	<!-- id must be multipart Resolver -->
+	<bean id ="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
+	
 
 	<!-- loading static resource -->
 	<mvc:annotation-driven />
